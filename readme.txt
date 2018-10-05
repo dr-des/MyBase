@@ -17,15 +17,17 @@
       info  - дополнительная информация/электронный адрес (строка)
     
     Zip:
-      id    -
-      type  -
-      name  -
-      info  -
+      id    - ID комплектующей
+      type  - тип комплектующей
+      name  - название
+      info  - дополнительная информация
      
     Cartridge:
-      id        -
-      check     -
-      customer  -
-      zip_id    -
-      zip_count -
-      date      -
+      id        - ID
+      check     - номер заявки
+      customer  - ID клиента
+      zip_id    - ID комплектующей
+      zip_count - количество
+      date      - дата выполнения работ
+      
+      
