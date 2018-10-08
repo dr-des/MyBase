@@ -8,7 +8,9 @@
   таблицы:
     Customer  - клиенты
     Zip       - комплектующие
-    Cartridge - основная таблица
+    Cartridge -
+    Check     -
+
   состав таблиц:
     Customer:
       id    - ID клиента (ключ, числовое, автоувеличение)
@@ -24,10 +26,13 @@
      
     Cartridge:
       id        - ID
-      check     - номер заявки
-      customer  - ID клиента
+      check_id     - номер заявки
       zip_id    - ID комплектующей
       zip_count - количество
-      date      - дата выполнения работ
+
+    Chack:
+      id
+      customer  - ID клиента
+      date
       
       

@@ -4,18 +4,12 @@ import java.util.Date;
 
 public class Cartridge {
     private int id;
-    private int check;
-    private int customer_id;
+    private int check_id;
     private int zip_id;
     private int count;
-    private Date date;
 
-    public void setCheck(int check) {
-        this.check = check;
-    }
-
-    public void setCustomer_id(int customer_id) {
-        this.customer_id = customer_id;
+    public void setCheckId(int check) {
+        this.check_id = check;
     }
 
     public void setZip_id(int zip_id) {
@@ -26,16 +20,8 @@ public class Cartridge {
         this.count = count;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
     public int getCheck() {
-        return check;
-    }
-
-    public int getCustomer_id() {
-        return customer_id;
+        return check_id;
     }
 
     public int getZip_id() {
@@ -44,10 +30,6 @@ public class Cartridge {
 
     public int getCount() {
         return count;
-    }
-
-    public Date getDate() {
-        return date;
     }
 
     public Cartridge() {

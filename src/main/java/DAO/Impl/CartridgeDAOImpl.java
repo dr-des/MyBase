@@ -8,7 +8,7 @@ import java.util.Collection;
 
 public class CartridgeDAOImpl implements CartridgeDAO {
     public void addCartridge(Cartridge cartridge) throws SQLException {
-
+        throw new SQLException();
     }
 
     public Collection getCartridge(int check) throws SQLException {
