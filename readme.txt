@@ -6,33 +6,19 @@
 
 Структура БД:
   таблицы:
-    Customer  - клиенты
-    Zip       - комплектующие
-    Cartridge -
-    Check     -
+    Customer
+    Zip
+    Cartridge
+    Check
 
   состав таблиц:
     Customer:
-      id    - ID клиента (ключ, числовое, автоувеличение)
-      name  - Имя клиента/название организации (строка)
-      phone - телефон (строка)
-      info  - дополнительная информация/электронный адрес (строка)
-    
+      id, name, phone, info
     Zip:
-      id    - ID комплектующей
-      type  - тип комплектующей
-      name  - название
-      info  - дополнительная информация
-     
+      id, type, name, info
     Cartridge:
-      id        - ID
-      check_id     - номер заявки
-      zip_id    - ID комплектующей
-      zip_count - количество
-
+      id, check_id, zip_id, zip_count
     Chack:
-      id
-      customer  - ID клиента
-      date
-      
+      id, customer_id, date1, date2
+//////////////////////
       
