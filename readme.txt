@@ -19,6 +19,6 @@
     Cartridge:
       id, check_id, zip_id, zip_count
     Chack:
-      id, customer_id, date1, date2
+      id, customer_id, date1, date2, state
 //////////////////////
       
