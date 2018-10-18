@@ -3,11 +3,12 @@ package logic;
 import java.util.Date;
 
     public class Check {
-        private int id;
-        private int customer;
-        private Date date1;
-        private Date date2;
-        private enum State{NEW, DONE, CLOSED}
+        private int id;//идентификатор заказа
+        private int customer;//идентификатор клиента
+        private Date date1;//дата приема
+        private Date date2;//дата исполнения
+        private Date date3;//дата отдачи(закрытие заказа)
+        private enum State{NEW, DONE, CLOSED}; //NEW - новый/не обработанный заказ, DONE - готовый заказ, CLOSED - отданный заказ.
 
     public int getId() {
         return id;
