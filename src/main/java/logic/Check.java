@@ -7,6 +7,7 @@ import java.util.Date;
         private int customer;
         private Date date1;
         private Date date2;
+        private enum State{NEW, DONE, CLOSED}
 
     public int getId() {
         return id;
